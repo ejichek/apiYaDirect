@@ -39,7 +39,7 @@ def getYaDirect_custum1(inputDate):
     ReportsURL = 'https://api.direct.yandex.com/json/v5/reports'
         
     # OAuth-токен пользователя, от имени которого будут выполняться запросы
-    token = 'y0_AgAAAAByMQIbAAr4ZwAAAAD0eZTuiy7tfWMnT1WzMHoVJqV30DoiK8g'
+    token = jsonData["YaDirectApiConstant"]["API_token"]
         
     # Логин клиента рекламного агентства
     # Обязательный параметр, если запросы выполняются от имени рекламного агентства
