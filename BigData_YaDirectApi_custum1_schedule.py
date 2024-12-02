@@ -30,7 +30,6 @@ def tlgrm(message):
     отчёты об успешности или не успешности выполнения DAG-а.
     Беседа называется: AFLT_BigDataReports
     """
-
     token = "BOT_ID:BOT_TOKEN"
     url = "https://api.telegram.org/bot"
     channel_id = "-100PRESS_YOUR_CHANNEL_ID"
