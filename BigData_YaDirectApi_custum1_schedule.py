@@ -31,13 +31,11 @@ def tlgrm(message):
     Беседа называется: AFLT_BigDataReports
     """
 
-    token = "7437864886:AAGbHErZlCVqycGfYhkrB14iYevybpqErjc"
+    token = "BOT_ID:BOT_TOKEN"
     url = "https://api.telegram.org/bot"
-    channel_id = "-1002335777312"
+    channel_id = "-100PRESS_YOUR_CHANNEL_ID"
     url += token
     method = url + "/sendMessage"
-    #    proxy = {'https': '192.168.41.118:1080'}
-    #    proxy = {'https': 'http://192.168.41.118:1080'}
 
     try:
         r = requests.post(method,
