@@ -1,6 +1,6 @@
 {"YaDirectApiConstant":{
-	"API_token":"y0_AgAAAAB29aj2AAwCXgAAAAEJFTfLAACPMhg8YaZLl6Rcw-kzM1TBWecfyg",
-	"proxy":"http://192.168.41.118:1080",
+	"API_token":"PRESS_YOUR_TOKEN",
+	"proxy":"http://PRESS_IP_PROXY",
 	"path_logs":"/home/bdataadmin/airflowYaDirect/logs/lastRequestLogsYaDirect.txt",
 	"path_intermediate":"/home/bdataadmin/airflowYaDirect/txt_intermediate/YaDirect_intermediate.txt",
 	"path_final":"/home/bdataadmin/airflowYaDirect/txt_final/YaDirect_custum1.txt"
